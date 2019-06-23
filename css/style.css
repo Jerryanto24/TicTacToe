@@ -1,0 +1,72 @@
+/*******tic-tac-toe******/
+#tic-tac-toe .disable {
+    text-transform:uppercase; 
+    font-size:30px; font-family:Georgia, 
+    "Times New Roman", Times, serif
+}
+#tic-tac-toe #game td {
+    float:left; 
+    padding:0; 
+    text-align:center; 
+    height:60px; 
+    line-height:50px; 
+    font-size:50px; 
+    color:#ccc
+}
+#tic-tac-toe #game td.disable{
+    color:#fff
+}
+
+#tic-tac-toe #game {
+    float:left; padding:0; clear:both
+}
+
+.new_span {width:226px}
+
+#tic-tac-toe #reset { 
+    padding:5px 10px; color:#fff; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:20px; clear:both; 
+    cursor:pointer; float:left; 
+    text-align:center; 
+    text-transform:uppercase; 
+    outline:none; 
+    width:204px
+}
+
+.input-prepend span.pre_text {width:55px}
+.input-prepend .span1{width:93px}
+.input-prepend {margin-bottom:10px}
+.clr {clear:both; height:0}
+#tic-tac-toe h1 {text-align:center; font-size:28px}
+#tic-tac-toe li::-moz-selection {background:none;color:#000;}
+#tic-tac-toe li::-webkit-selection {background:none;color:#000;}
+#tic-tac-toe {margin:0 auto}
+.input-append .win_times {background:#fff; width:101px}
+.input-append .win_text {width:52px}
+#game td, table th {
+    border: 1px solid #28a745;
+    border-radius: 0;
+    height:62px;
+    width:62px;
+
+}
+
+#game tr:last-child td {
+    border-bottom: 0!important;
+}
+
+#game tr:first-child td {
+    border-top: 0!important;
+}
+
+#game tr td:first-child {
+    border-left: 0!important;
+}
+
+#game tr td:last-child {
+    border-right: 0!important;
+}
+
+
+/*******tic-tac-toe END******/
